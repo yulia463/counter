@@ -1,38 +1,55 @@
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+
+
+}
+
+
 .App {
-  text-align: center;
+    display: flex;
+    overflow: hidden;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+    /*background: slateblue;*/
+    border: 1px solid white;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b47091+0,a75b7c+50,842048+56,ba5278+100 */
+    background: #b47091; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #b47091 0%, #a75b7c 50%, #842048 56%, #ba5278 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #b47091 0%,#a75b7c 50%,#842048 56%,#ba5278 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #b47091 0%,#a75b7c 50%,#842048 56%,#ba5278 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b47091', endColorstr='#ba5278',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.out {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: white;
+    height: 30px;
 }
