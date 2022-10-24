@@ -9,12 +9,17 @@
     margin-top: 5px;
     margin-bottom: 20px;
     border-radius: 10px;
-
-
-
 }
 
-
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 .App {
     display: flex;
     overflow: hidden;
@@ -22,7 +27,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
     color: white;
     /*background: slateblue;*/
     border: 1px solid white;
